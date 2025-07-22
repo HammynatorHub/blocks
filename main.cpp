@@ -18,6 +18,5 @@ int main()
     cout << endl << endl << "Press Enter to end the application.";
     cin.ignore();
     cin.get();
-
     return 0;
 }
