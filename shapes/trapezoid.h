@@ -1,4 +1,4 @@
-void drawTrapez(int x) {
+void drawTrapezoid(int x) {
     int lowerSide = x*2;
     int spaces = x;
     int occ = x;

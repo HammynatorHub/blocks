@@ -5,7 +5,7 @@
 #include "shapes/diamond.h"
 #include "shapes/tree.h"
 #include "shapes/parallelogram.h"
-#include "shapes/trapez.h"
+#include "shapes/trapezoid.h"
 
 void drawShape(char geo) {
     int x;
@@ -45,13 +45,13 @@ void drawShape(char geo) {
             std::cin >> x;
             std::cout << std::endl << "height: ";
             std::cin >> y;
-            drawPara(x, y);
+            drawParallelogram(x, y);
             break;
 
         case 'z':
             std::cout << std::endl << "size: ";
             std::cin >> x;
-            drawTrapez(x);
+            drawTrapezoid(x);
             break;
 
         default:
