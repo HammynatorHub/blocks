@@ -17,5 +17,9 @@ int main()
 
     drawShape(geo);
 
+    cout << endl << endl << "Press any key to end the application.";
+    cin.ignore();
+    cin.get();
+
     return 0;
 }

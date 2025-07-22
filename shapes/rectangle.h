@@ -3,7 +3,7 @@ void drawRectangle(int x, int y) {
         std::cout << '\n';
         for (int j = 0; j < x; j++) {
             std::cout << "#";
-        }
+        } 
         
     }
 }
