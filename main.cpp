@@ -6,11 +6,12 @@ int main()
     using std::cout, std::cin, std::endl;
 
     char geo;
+    cout << "@- Availabe Shapes -@" << "\n\n";
     cout << "r = Rectangle" << endl << "t = Triangle" << endl;
     cout << "d = Diamond" << endl << "x = Xmas-Tree" << endl;
     cout << "p = Parallelogram" << endl << "z = Trapezoid" << endl;
 
-    cout << "Please enter shape: ";
+    cout << endl << "Please enter shape: ";
     cin >> geo;
 
     drawShape(geo);
